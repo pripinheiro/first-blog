@@ -4,7 +4,7 @@ This is my first blog with Ruby on Rails, I used this language and framework for
 
 ## _Preview_
 
-![](/assets/imagens/blog.gif)
+![](/app/assets/imagens/blog.gif)
 
 
 made by :two_hearts: _Pri Pinheiro_
