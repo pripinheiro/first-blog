@@ -1,24 +1,10 @@
-# README
+# First blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is my first blog with Ruby on Rails, I used this language and framework for a study, I used too for a styles Bulma css.
 
-Things you may want to cover:
+## _Preview_
 
-* Ruby version
+![](/assets/imagens/blog.gif)
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+made by :two_hearts: _Pri Pinheiro_
