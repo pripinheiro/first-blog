@@ -1,0 +1,17 @@
+</br>
+<h1 class='title has-text-centered'>Learning Ruby on Rails</h1>
+<p class='subtitle is-5 has-text-centered'>By Pri Pinheiro</p>
+
+<% @posts.each do |post| %>
+  </div>
+        <div class="card-content">
+          <div class="media">
+            <div class="media-content">
+              <a href="<%= post_path(id: post.id) %>"><p class="title is-5"><%= post.title%></p></a>
+            </div>
+          </div>
+          <p>Description: <%= post.description %> - <%= post.created_at.strftime("%d/%m/%Y") %></p>
+        </div>
+<% end %> 
+
+

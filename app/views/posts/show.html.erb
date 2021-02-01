@@ -1,14 +1,21 @@
 <p id="notice"><%= notice %></p>
 
+</br>
 <p>
   <strong>Title:</strong>
   <%= @post.title %>
 </p>
-
+</br>
 <p>
   <strong>Description:</strong>
   <%= @post.description %>
 </p>
+</br>
+<div class="field is-grouped">
+  <div class="control">
+    <%= link_to 'Edit', edit_post_path(@post), class: 'button is-link' %>
+  </div>
+  <div class="control">
+    <%= link_to 'Back', root_path, class: 'button is-link is-light' %>
+  </div>
 
-<%= link_to 'Edit', edit_post_path(@post) %> |
-<%= link_to 'Back', posts_path %>

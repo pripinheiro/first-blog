@@ -12,16 +12,24 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :title %>
-    <%= form.text_field :title %>
+    <%= form.label 'Title', class: 'label' %>
+    <div class="control">
+      <%= form.text_field :title, class: 'input' %>
+    </div>
   </div>
 
   <div class="field">
-    <%= form.label :description %>
+    <%= form.label 'Description', class: 'label'%>
     <%= form.text_area :description %>
   </div>
 
-  <div class="actions">
-    <%= form.submit %>
+  <div class="field is-grouped">
+    <div class="control">
+      <%= form.submit 'Create post', class: 'button is-link' %>
+    </div>
+    <div class="control">
+      <%= link_to 'Back', posts_path, class: 'button is-link is-light' %>
   </div>
+
+  
 <% end %>

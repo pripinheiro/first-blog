@@ -1,8 +1,9 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Posts</h1>
+</br>
+<h1 class='title is-3'>Posts</h1>
 
-<table>
+<table class='table is-hoverable'>
   <thead>
     <tr>
       <th>Title</th>
@@ -26,4 +27,11 @@
 
 <br>
 
-<%= link_to 'New Post', new_post_path %>
+<div class="field is-grouped">
+  <div class="control">
+    <%= link_to 'New Post', new_post_path, class: 'button is-link' %>
+  </div>
+  <div class="control">
+    <%= link_to 'Back', root_path, class: 'button is-link is-light' %>
+  </div>
+
